@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    gap: 40px;
+    flex-direction: column;
+}
+
+button{
+    padding: 10px 25px;
+    background-color: rgb(50, 143, 138);
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.95;
+}

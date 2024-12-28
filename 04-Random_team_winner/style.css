@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+
+.card{
+    padding: 40px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h1{
+    font-size: 34px;
+    margin-bottom: 35px;
+    word-spacing: 3px;
+
+}
+
+.card h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: rgb(63, 92, 90);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:active{
+    scale: 0.95;
+}
